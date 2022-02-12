@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Main</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href='./index.html'>Main</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <section>
+            <div class="input">
+                <h1>QR-code + promocode Generator</h1>
+                <!-- <form id="promocode"> -->
+                    <input id='longUrl' type="text" placeholder="DOG" required>
+                    <br>
+                    <br>
+                    <button id='shortenButton'>Generate</button>
+                <!-- </form> -->
+            </div>
+            <textarea id='resultArea'></textarea>
+            <div class="copyButton" id="copyButton">Copy URL</div>
+            <div class="qrImg">
+                <img id='resultImg' src="" alt="">
+            </div>
+
+        </section>
+    </div>
+    <script src="./js/urlshorten.js"></script>
+</body>
+
+</html>
